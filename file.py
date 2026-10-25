@@ -1,0 +1,11 @@
+#f = open("practice.txt", "r")
+#print(f.read())
+f = open("practice.txt", "w")
+f.write("The cell is the basic, structural and functional unit of life\n")
+f1 = open("Nothng.txt", "w")
+f = open("practice.txt", "a")
+f.write("Hellloo, this is a practice on file handling")
+f1.write("Hi")
+g = open("So.txt", "w")
+for i in f:
+    print(g)
